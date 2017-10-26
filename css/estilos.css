@@ -18,7 +18,6 @@ body {
 	background: #F0B429;
 }
 
-
 /*
 Seccion header principal
 */
@@ -64,6 +63,8 @@ header nav ul li a:hover{
 	background: #fff;
 	color: #005883;
 }
+
+/* ----------- START INDEX.HTML ------------------ */
 
 /* 
 Seccion informacion general
@@ -157,6 +158,66 @@ Seccion Objetivos Tematicas
 	font-family: "FGBookItalic"
 }
 
+/* ----------- END INDEX.HTML ------------------ */
+
+/* ----------- START AUTORES.HTML ------------------ */
+
+#sectionAutores {
+	width: 100%;
+	height: 1000px;
+	background: #000;
+	background: url("../img/autores.jpeg") center fixed;
+	background-size: cover;
+}
+
+#divAutores {
+	margin: 10px auto;
+	width: 992px;
+	height: 100%;
+	background: rgba(0, 88, 131, .9);
+}
+
+#divAutores:hover article{
+	opacity: .6;
+}
+
+#divAutores h2{
+	text-align: center;	
+	font-family: "FGHeavy";
+	font-size: 30px;
+}
+
+#divAutores article {
+	width: 300px;
+	height: 430px;
+	display: inline-block;
+	margin: 12px;
+	border: 1px solid black;
+
+	transition: opacity .7s, background .7s;
+}
+
+#divAutores article:hover{
+	background: #F0B429;
+	opacity: 1;
+}
+
+#divAutores article .imagen {
+ 	 	text-align: center;
+ 	 	margin-top: 10px;
+ }
+
+#divAutores article img{
+ 	width:220px;
+ 	height: 200px;
+ 	border-radius:500px;
+ }
+
+#divAutores article ul li p{
+	font-family: "FGBookItalic"
+}
+
+/* ----------- END AUTORES.HTML ------------------ */
 
 
 /*
@@ -165,5 +226,14 @@ Footer
 
 footer{
 	width: 100%;
-	height: 60px;
+}
+
+footer p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #000;
+	text-align: center;
+	padding: 25px;
+	font-family: "FGBookItalic";
+	font-size: 18px;
 }
