@@ -35,6 +35,7 @@ header nav {
 }
 
 header nav h1 {
+	color: #fff;
 	font-family: "FGHeavy";
 	font-size: 30px;
 	padding: 5px;
@@ -42,8 +43,8 @@ header nav h1 {
 
 header nav ul {
 	width: 520px;
-	float: right;
 	margin-top: -65px;
+	float: right;
 }
 
 header nav ul li {
@@ -158,6 +159,33 @@ Seccion Objetivos Tematicas
 	font-family: "FGBookItalic"
 }
 
+/*
+Seccion de contador y enlace a Twitter
+*/
+
+#idSocial {
+	width: 100%;
+	text-align: center;
+	background: url("../img/security.jpeg") center fixed;
+	background-size: cover;
+}
+
+#divSocial{
+	width: 60%;
+	background: #005883;
+	padding-top: 10px;
+	margin: 0 auto;
+}
+
+#divSocial h4{
+	font-family: "FGBook";
+	font-size: 20px;
+}
+
+#idTwitter {
+	margin-top: 20px;
+}
+
 /* ----------- END INDEX.HTML ------------------ */
 
 /* ----------- START AUTORES.HTML ------------------ */
@@ -202,6 +230,10 @@ Seccion Objetivos Tematicas
 	opacity: 1;
 }
 
+#divAutores article:hover p{
+	color: #000;
+}
+
 #divAutores article .imagen {
  	 	text-align: center;
  	 	margin-top: 10px;
@@ -214,8 +246,12 @@ Seccion Objetivos Tematicas
  }
 
 #divAutores article ul li p{
-	font-family: "FGBookItalic"
+	color: #fff;
+	font-family: "FGBookItalic";
+
+	transition: color .7s;
 }
+
 
 /* ----------- END AUTORES.HTML ------------------ */
 
