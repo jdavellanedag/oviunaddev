@@ -16,10 +16,6 @@ li{
 
 body {
 	background: #F0B429;
-	
-	margin-right: 40px;
-	margin-left: 70px;
-	padding-top: 10px
 }
 
 /*
@@ -76,13 +72,11 @@ Seccion informacion general
 */
 
 #sectionGeneral {
-	margin-top: 30px;
+	margin-top: 10px;
 	width: 100%;
-	height: 1000px;
+	height: 400px;
 	background: url("../img/security.jpeg") center fixed;
 	background-size: cover;
-	padding-bottom: 1000px;
-
 }
 
 #sectionGeneral div {
@@ -95,7 +89,6 @@ Seccion informacion general
 	width: 250px;
 	margin: 0 auto;
 }
-
 
 #sectionGeneral div h2{
 	margin-top: 0px;
@@ -112,8 +105,6 @@ Seccion informacion general
 	color: #fff;
 }
 
-
-
 #sectionGeneral div ul{
 	font-family: "FGBook";
 	font-size: 30px;
@@ -126,19 +117,6 @@ Seccion informacion general
 	font-size: 30px;
 	color: #fff;
 	
-}
-
-#sectionGeneral div p{
-	font-family: "FGBook";
-	font-size: 15px;
-	color: #fff;
-	background-color: #DDD;
-	float: left;
-	margin: 5px 50px 5px 50px;
-	padding-bottom: 10px;
-	
-
-
 }
 
 /*
@@ -209,6 +187,29 @@ Seccion de contador y enlace a Twitter
 }
 
 /* ----------- END INDEX.HTML ------------------ */
+
+
+/* ----------- START LECTURAS.HTML ------------- */
+
+#sectionGeneralLectura {
+	width: 992px;
+	padding-top: 10px;
+	background: white;
+	margin: auto;
+}
+
+#sectionGeneralLectura h3{
+	text-align: center;
+	font-family: "FGHeavy";
+	font-size: 30px;
+}
+
+#sectionGeneralLectura p {
+	font-family: "FGBook";
+}
+
+
+/* ----------- END LECTURAS.HTML --------------- */
 
 /* ----------- START AUTORES.HTML ------------------ */
 
