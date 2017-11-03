@@ -53,8 +53,25 @@ header nav ul li {
 }
 
 #idSubMenu {
-			display: none;
+	display: none;
+	width: 100px;
+	position: absolute;	
+ 	background: #005883;
+ 	color: #fff;
+ 	padding: 5px 0px 5px 5px;
+ 	margin: 10px auto;
 }
+
+#idSubMenu li {
+	float: left;
+	width: 100%;
+	margin: 10% 0%;
+}
+
+#menuActividades:hover #idSubMenu {
+	display: block;
+}
+
 
 header nav ul li a{
 	color: #fff;
@@ -226,20 +243,21 @@ Seccion de contador y enlace a Twitter
 	width: 992px;
 	margin: auto;
 	text-align: center;
-	background: rgba(0, 88, 131, .9);
+	/*background: rgba(0, 88, 131, .9);*/
+	background: rgba(173, 173, 173, .9);
 }
 
 #multimedia h3{
 	text-align: center;
 	font-family: "FGHeavy";
 	font-size: 30px;
-	color: #fff;
+	color: #000;
 }
 
 #multimedia article h4{
 	font-family: "FGBook";
 	font-size: 20px;
-	color: #fff;
+	color: #000;
 }
 
 /* ----------- END MULTIMEDIA.HTML ------------ */
@@ -258,7 +276,8 @@ Seccion de contador y enlace a Twitter
 	margin: 10px auto;
 	width: 992px;
 	height: 100%;
-	background: rgba(0, 88, 131, .9);
+	/* rgba(0, 88, 131, .9); */
+	background: rgba(173, 173, 173, .9);
 }
 
 #divAutores:hover article{
@@ -302,7 +321,7 @@ Seccion de contador y enlace a Twitter
  }
 
 #divAutores article ul li p{
-	color: #fff;
+	color: #000;
 	font-family: "FGBookItalic";
 
 	transition: color .7s;
