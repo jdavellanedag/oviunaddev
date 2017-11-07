@@ -262,6 +262,32 @@ Seccion de contador y enlace a Twitter
 
 /* ----------- END MULTIMEDIA.HTML ------------ */
 
+/* ----------- START ACTIVIDADES ------------------- */
+
+#actividad {
+	width: 100%;
+	background: #000;
+	background: url("../img/pexels2.jpeg") center fixed;
+	background-size: cover;
+}
+
+#actividad div {
+	width: 992px;
+	margin: auto;
+	text-align: center;
+	/*background: rgba(0, 88, 131, .9);*/
+	background: rgba(173, 173, 173, .9);
+}
+
+#actividad div h3{
+	text-align: center;
+	font-family: "FGHeavy";
+	font-size: 30px;
+	color: #000;
+}
+
+/* ----------- END ACTIVIDADES ------------------- */
+
 /* ----------- START AUTORES.HTML ------------------ */
 
 #sectionAutores {
